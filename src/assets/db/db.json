@@ -1,0 +1,63 @@
+{
+    "Nombre":"Maximo",
+    "Apellido":"Corvalan",
+    "Edad":"18",
+    "Acerca de mi":"Hola. me llamo Maximo Corvalan, tengo 18 años. Actualmente vivo en la Ciudad de Buenos Aires y estoy haciendo el cbc de medicina y un curso de programacion. Mis hobbies favoritos son hacer deporte, y pasar tiempo con mi familias y amigos",
+
+    "Experiencias Laborales": [
+
+    {
+        "id":1,
+        "lugar":"Cines Multiplex",
+        "puesto":"Acomodador",
+        "Descripcion de Actividades": "Ayudar a las personas a encontrar sus respectivos ascientos para poder mantener cierto orden y que puedan disfrutar la pelicula.",
+        "Tiempo":"Tiempo: Febrero-2022 a Agosto-2022"
+
+
+    },
+    {
+        "id":2,
+        "lugar":" TecnoSet (SERVICIO ESPECIALIZADO TECNOLOGICO)",
+        "puesto":"Vendedor y manejo de redes sociales",
+        "Descripcion de Actividades": "vendia sus productos, a la par que respodia dudas del usuario ,via Facebook ,acerca de estos",
+        "Tiempo":"Mayo-2021 a Julio-2022"
+
+
+    }
+
+    ],
+
+    "Educacion": [
+
+        {
+            "id":1,
+            "instituto":"Atletico Ataliva Blanco",
+            "Tipo de Educacion":"Secundario Orientacion deportiva",
+            "Estado":"Finalizado",
+            "Año":"2015-2021"
+        },
+        {
+            "id":2,
+            "instituto":"INFA",
+            "Tipo de Educacion":"Curso- Primeros auxilios",
+            "Estado":"Finalizado",
+            "Año":"Agosto 2021"
+        }
+
+
+    
+    ],
+
+    "ciclo Basico Comun-Medicina":{
+        "Estado":"transcurso"
+
+    },
+
+    "Idiomas":{
+        "ingles":"B-3",
+        "Español":"Nativo"
+
+    }
+
+
+}
