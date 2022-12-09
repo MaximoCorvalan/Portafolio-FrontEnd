@@ -1,15 +1,9 @@
-<div id="conteiner">
-    <p style="font-size: 20px"><Strong>EDUCACION:</Strong></p>
-    <ul><p style="font-size: 19px ;"> <u>Instituto Ataliva Blanco-Educacion Secundaria</u> </p>
-    <li>Año: 2015-2021</li>
-    <li>Orientacion: Deportiva</li>
-    <li>Estado: Finalizado</li>
+<div id="conteiner" *ngFor="let educaciones of educacionn" >
+    <p style="font-size: 20px"><Strong>{{educaciones.Educacion}}</Strong></p>
+    <ul ><p style="font-size: 19px ;"> <u>{{educaciones.instituto}}</u> </p>
+    <li id="educacion">{{educaciones.Ano}}</li>
+    <li id="educacion">{{educaciones.TipodeEducacion}}</li>
+    <li id="educacion">{{educaciones.Estado}}</li>
     </ul>
-    <ul> <p style="font-size: 19px ;"> <u>Curso de Primeros Auxilios</u>
-    <li>Año: 2021(Mayo)-2022(Junio)</li>
-    <li>Estado: Finalizado</li>
-    </ul>
-    <ul> <p style="font-size: 19px ;"> <u>Ciclo Basico Comun(CBC) de Medicina</u>
-     <li>Estado: En transcurso</li>
-    </ul>
+   
     </div>

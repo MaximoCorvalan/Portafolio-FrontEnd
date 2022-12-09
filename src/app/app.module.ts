@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -10,7 +10,9 @@ import { ExperienciaLaboralComponent } from './components/experiencia-laboral/ex
 import { FomacionComponent } from './components/fomacion/fomacion.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { IdiomasComponent } from './components/idiomas/idiomas.component';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { LoginComponent } from './modales/login/login.component';
+import { FormControl } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,11 +22,15 @@ import { IdiomasComponent } from './components/idiomas/idiomas.component';
     ExperienciaLaboralComponent,
     FomacionComponent,
     SkillsComponent,
-    IdiomasComponent
+    IdiomasComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
    
   ],
   providers: [],

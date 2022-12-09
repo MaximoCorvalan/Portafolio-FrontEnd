@@ -5,9 +5,10 @@
     margin-left: 15px; 
 }
 #conteiner{
-    margin-top: 30px;
+    margin-top: 0px;
     background-color: rgb(252, 252, 252);
     padding-bottom: 20px;
+    
 }
 .linea{
     opacity:100 ;
