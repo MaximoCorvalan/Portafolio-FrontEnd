@@ -6,3 +6,15 @@
 #educacion{
     margin-left: 15px;
 }
+#contenedorbtn{
+    position: absolute;
+    margin-left: 32cm;
+    margin-top: 10px;
+    
+}
+#boton{
+    position: relative;
+    border: none;
+    background-color: rgb(252, 252, 252) ;
+    
+}

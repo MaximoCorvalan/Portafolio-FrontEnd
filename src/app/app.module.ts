@@ -13,6 +13,11 @@ import { IdiomasComponent } from './components/idiomas/idiomas.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './modales/login/login.component';
 import { FormControl } from '@angular/forms';
+import { ExperienciaComponent } from './modales/experiencia/experiencia.component';
+import { EducarComponent } from './modales/educar/educar.component';
+import { IdiomaComponent } from './modales/idioma/idioma.component';
+import { MiinformacionComponent } from './modales/miinformacion/miinformacion.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +28,11 @@ import { FormControl } from '@angular/forms';
     FomacionComponent,
     SkillsComponent,
     IdiomasComponent,
-    LoginComponent
+    LoginComponent,
+    ExperienciaComponent,
+    EducarComponent,
+    IdiomaComponent,
+    MiinformacionComponent
   ],
   imports: [
     BrowserModule,

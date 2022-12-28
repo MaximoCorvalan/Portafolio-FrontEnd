@@ -7,3 +7,16 @@
     margin-left: 10px;
     font-size: 17px;
 }
+#contenedorbtn{
+    position: absolute;
+    margin-left: 32cm;
+    margin-top: 10px;
+    
+}
+#boton{
+    position: relative;
+    border: none;
+    background-color: rgb(252, 252, 252) ;
+
+ 
+}

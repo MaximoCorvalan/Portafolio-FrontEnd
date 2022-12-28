@@ -18,17 +18,20 @@
     
 }
 #logowsp{
+
     height:57px ;
     width: 60px;
-    background-color: rgb(252, 252, 252);
-    border-radius: 100px;
+    border-radius: 200px;
     margin-left: 0px;
     margin-right: 0px;
-   
 
 }
 #logoAp{
     height: 80px;
     width: 150px;
+}
+#boton{
+    border: none;
+    background-color:  rgb(250, 246, 246); ;
 }
 

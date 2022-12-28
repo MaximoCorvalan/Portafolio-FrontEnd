@@ -16,3 +16,16 @@
     margin-left: 5cm;
     margin-right: 5cm;
 }
+#contenedorbtn{
+    position: absolute;
+    margin-left: 32cm;
+    margin-top: 10px;
+    
+}
+#boton{
+    position: relative;
+    border: none;
+    background-color: rgb(252, 252, 252) ;
+
+ 
+}
