@@ -9,12 +9,12 @@
         </div>
         <div class="modal-body">
             <div id="experiencia">
-                <form>
+                <form [formGroup]="form">
                 <div class="form-group">
                   <label for="exampleInputEmail1">Nuevo Idioma</label>
-                  <input type="text" class="form-control" id="lugar" aria-describedby="emailHelp" placeholder=" Idioma">
+                  <input type="text" formControlName="idioma" class="form-control" id="lugar" aria-describedby="emailHelp" placeholder=" Idioma">
                   <br>
-                  <input type="text" class="form-control" id="lugar" aria-describedby="emailHelp" placeholder="Nivel">
+                  <input type="text" formControlName="nivel" class="form-control" id="lugar" aria-describedby="emailHelp" placeholder="Nivel">
                   <br>
                   
                

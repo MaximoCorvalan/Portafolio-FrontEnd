@@ -9,16 +9,16 @@
         </div>
         <div class="modal-body">
             <div id="experiencia">
-                <form>
+                <form [formGroup]="form">
                 <div class="form-group">
                   <label for="exampleInputEmail1">Nueva Formación</label>
-                  <input type="text" class="form-control" id="lugar" aria-describedby="emailHelp" placeholder=" Institucion">
+                  <input type="text" class="form-control" id="lugar" formControlName="intstitucion" aria-describedby="emailHelp" placeholder=" Institucion">
                   <br>
-                  <input type="text" class="form-control" id="lugar" aria-describedby="emailHelp" placeholder=" Año">
+                  <input type="text" class="form-control" id="lugar" formControlName="ano" aria-describedby="emailHelp" placeholder=" Año">
                   <br>
-                  <input type="text" class="form-control" id="puesto" aria-describedby="emailHelp" placeholder=" Titulo ">
+                  <input type="text" class="form-control" id="puesto" formControlName="titulo" aria-describedby="emailHelp" placeholder=" Titulo ">
                   <br>
-                  <input type="text" class="form-control" id="tiempo" aria-describedby="emailHelp" placeholder="Estado ">
+                  <input type="text" class="form-control" id="tiempo" formControlName="estado" aria-describedby="emailHelp" placeholder="Estado ">
                 </div>
                 <br>
                 

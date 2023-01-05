@@ -9,10 +9,10 @@
         </div>
         <div class="modal-body">
             <div id="acercademii">
-                <form>
+                <form  [formGroup]="form" >
                 <div class="form-group">
                   <label for="exampleInputEmail1">  Actualizar informacion </label>
-                  <input type="text" class="form-control" id="lugar" aria-describedby="emailHelp" placeholder=" Nueva Informacion">
+                  <input type="text" class="form-control" id="lugar" aria-describedby="emailHelp" placeholder=" Nueva Informacion" formControlName="acercademi">
                   <br>
                   
                

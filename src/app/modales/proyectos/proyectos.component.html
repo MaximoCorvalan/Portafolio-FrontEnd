@@ -9,16 +9,16 @@
         </div>
         <div class="modal-body">
             <div id="proyecto">
-                <form>
+                <form [formGroup]="form">
                 <div class="form-group">
                   <label for="exampleInputEmail1">información  del nuevo proyecto</label>
-                  <input type="text" class="form-control" id="Nuevo nombre" aria-describedby="emailHelp" placeholder=" Inserte nuevo nombre">
+                  <input type="text" formControlName="nuevonombre" class="form-control" id="Nuevo nombre" aria-describedby="emailHelp" placeholder=" Inserte nuevo nombre">
                   <br>
-                  <input type="text" class="form-control" id="Nueva descripción" aria-describedby="emailHelp" placeholder=" Inserte nueva  descripción">
+                  <input type="text" formControlName="nuevadescripcion" class="form-control" id="Nueva descripción" aria-describedby="emailHelp" placeholder=" Inserte nueva  descripción">
                   <br>
-                  <input type="text" class="form-control" id="linkpage" aria-describedby="emailHelp" placeholder="Inserte nuevo Link">
+                  <input type="text" formControlName="nuevolink" class="form-control"  id="linkpage" aria-describedby="emailHelp" placeholder="Inserte nuevo Link">
                   <br>
-                  <input type="date" class="form-control" id="tiempo" aria-describedby="emailHelp" placeholder="Tiempo "> <br>Hasta <input type="date" class="form-control" id="tiempo" aria-describedby="emailHelp" placeholder="Tiempo del proyecto ">
+                  <input type="date" formControlName="inicio" class="form-control" id="tiempo" aria-describedby="emailHelp" placeholder="Tiempo "> <br>Hasta <input type="date" formControlName="fin" class="form-control" id="tiempo" aria-describedby="emailHelp" placeholder="Tiempo del proyecto ">
                 </div>
                 <br>
                 

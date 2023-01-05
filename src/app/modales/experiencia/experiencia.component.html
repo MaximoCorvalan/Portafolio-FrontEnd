@@ -11,16 +11,16 @@
         </div>
         <div class="modal-body">
             <div id="experiencia">
-                <form>
+                <form [formGroup]="form">
                 <div class="form-group">
                   <label for="exampleInputEmail1">Experiencia de trabajo</label>
-                  <input type="text" class="form-control" id="lugar" aria-describedby="emailHelp" placeholder=" Lugar">
+                  <input type="text" class="form-control" id="lugar" aria-describedby="emailHelp" formControlName="lugar" placeholder=" Lugar">
                   <br>
-                  <input type="text" class="form-control" id="lugar" aria-describedby="emailHelp" placeholder=" Puesto">
+                  <input type="text" class="form-control" id="Puesto" aria-describedby="emailHelp" formControlName="puestp" placeholder=" Puesto">
                   <br>
-                  <input type="text" class="form-control" id="puesto" aria-describedby="emailHelp" placeholder=" Descripcion de actividades ">
+                  <input type="text" class="form-control" id="Descripcion" aria-describedby="emailHelp" formControlName="descripcion" placeholder=" Descripcion de actividades ">
                   <br>
-                  <input type="date" class="form-control" id="tiempo" aria-describedby="emailHelp" placeholder="Tiempo "> <br>Hasta <input type="date" class="form-control" id="tiempo" aria-describedby="emailHelp" placeholder="Tiempo ">
+                  <input type="date" class="form-control" id="tiempo" formControlName="inicio" aria-describedby="emailHelp" placeholder="Tiempo "> <br>Hasta <input type="date" class="form-control" formControlName="fin" id="tiempo" aria-describedby="emailHelp" placeholder="Tiempo ">
                 </div>
                 <br>
                 
