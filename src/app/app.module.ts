@@ -17,6 +17,8 @@ import { ExperienciaComponent } from './modales/experiencia/experiencia.componen
 import { EducarComponent } from './modales/educar/educar.component';
 import { IdiomaComponent } from './modales/idioma/idioma.component';
 import { MiinformacionComponent } from './modales/miinformacion/miinformacion.component';
+import { ProyectoComponent } from './components/proyecto/proyecto.component';
+import { ProyectosComponent } from './modales/proyectos/proyectos.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { MiinformacionComponent } from './modales/miinformacion/miinformacion.co
     ExperienciaComponent,
     EducarComponent,
     IdiomaComponent,
-    MiinformacionComponent
+    MiinformacionComponent,
+    ProyectoComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,

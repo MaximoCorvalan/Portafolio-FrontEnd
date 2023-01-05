@@ -72,7 +72,16 @@
     "ArgAp":"assets/img/ap.jpg",
     "logoig":"assets/img/ig.jpg",
     "logogmail":"assets/img/linkedin-logo.png",
-    "logoWsp":"assets/img/wsp.png"
+    "logoWsp":"assets/img/wsp.png",
+
+    "Proyectos":"PROYECTOS",
+    "Nombrep":"Portafolio(Argentina Programa)",
+    "Descripcion":"Descripcion: Participe en el desarrollo de un Portafolio Web, cuando realicé un curso llamado  Argentina Programa brindado por el Estado en este se veían los temas principales para poder desarrollarte como Programador Full Stack Developer Jr.",
+    "Link":"Link Github: ",
+    "Fechaderealizacion":"Fecha de realización: Junio-2022 a Enero-2023"
+
+    
+    
 
     
     
